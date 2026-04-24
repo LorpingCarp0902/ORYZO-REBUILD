@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wget --version)",
+      "PowerShell(robocopy \"site\\\\images\" \"images\" /E /MOVE /NFL /NDL /NJH /NJS; Write-Output \"exit=$LASTEXITCODE\"; Get-ChildItem site -ErrorAction SilentlyContinue)"
+    ]
+  }
+}
